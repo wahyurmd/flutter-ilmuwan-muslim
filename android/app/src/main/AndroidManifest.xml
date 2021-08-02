@@ -2,7 +2,7 @@
     package="com.example.ilmuwan_muslim_app">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="Sqients Ilmuwan Muslim"
+        android:label="Ilmuwan Muslim"
         android:icon="@mipmap/ic_sqients">
         <activity
             android:name=".MainActivity"

@@ -4,14 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:ilmuwan_muslim_app/detail_screen.dart';
 import 'package:ilmuwan_muslim_app/model/ilmuwan_list.dart';
 
-class HomePage extends StatefulWidget {
+class HomePage extends StatelessWidget{
   const HomePage({Key? key}) : super(key: key);
 
-  @override
-  _HomePage createState() => _HomePage();
-}
-
-class _HomePage extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,9 +35,14 @@ class _HomePage extends State<HomePage> {
   }
 }
 
-class MobileHomeScreen extends StatelessWidget {
+class MobileHomeScreen extends StatefulWidget{
   const MobileHomeScreen({Key? key}) : super(key: key);
 
+  @override
+  _MobileHomeScreen createState() => _MobileHomeScreen();
+}
+
+class _MobileHomeScreen extends State<MobileHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
