@@ -35,14 +35,9 @@ class HomePage extends StatelessWidget{
   }
 }
 
-class MobileHomeScreen extends StatefulWidget{
+class MobileHomeScreen extends StatelessWidget{
   const MobileHomeScreen({Key? key}) : super(key: key);
 
-  @override
-  _MobileHomeScreen createState() => _MobileHomeScreen();
-}
-
-class _MobileHomeScreen extends State<MobileHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
