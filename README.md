@@ -1,3 +1,10 @@
+# Author
+by : Wahyu Ramadhani
+
+github : https://github.com/wahyurmd
+
+instagram : @wahyurmd_13
+
 # ilmuwan_muslim_app
 
 A new Flutter project.
